@@ -30,7 +30,7 @@ function addTask(e){
 
   return(
     <div>
-      <h1>Todo</h1>
+      <h1></h1>
       <input value={input} type="text" onKeyUpCapture={(e) => addTask(e)} onChange={(e) => setInput(e.target.value)}/>
       <div>
         {task && task.map(task => {
